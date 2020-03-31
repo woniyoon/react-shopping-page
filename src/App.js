@@ -1,4 +1,5 @@
 import React from 'react';
+import Products from './Screens/Products';
 
 import './App.css';
 
@@ -12,6 +13,9 @@ function App() {
             <li>Contacts</li>
           </ul>
         </header>
+        <div>
+          <Products />
+        </div>
       </div>
   );
 }
