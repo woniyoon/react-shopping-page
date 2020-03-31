@@ -10,7 +10,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +22,39 @@
 .App-link {
   color: #61dafb;
 }
+
+#navigator {
+  list-style-type:none;
+  position: absolute;
+  right: 15px;
+  top: 0px;
+}
+
+#navigator li {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+.Container {
+  background-color: salmon;
+  align-content: space-between;
+  align-items: center;
+  align-self: center;
+  flex-direction: row;
+}
+
+.Search-Input {
+  height: 20px;
+  border-color: rgb(0, 255, 0);
+}
+
+.Button {
+  height: 25px;
+  background-color: lightsteelblue;
+  width: 40px;
+  border-color: deeppink;
+}
+
 
 @keyframes App-logo-spin {
   from {
