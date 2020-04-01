@@ -1,7 +1,5 @@
 import React from 'react';
 import location from '../imgs/contacts_location.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 
 
 function Contacts() {
@@ -17,8 +15,6 @@ function Contacts() {
                 <h4>Phone</h4>
                 <p>716-354-3749</p>
                 <h4>Online Contacts</h4>
-
-                <i class="fab faFacebookF"></i>
                 {/* <p>470 Sunset Drive Scarsdale, NY 10583</p>
                     <form>
                         <label style={{ padding: "10px" }} >
