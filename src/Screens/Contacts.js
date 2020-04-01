@@ -5,11 +5,10 @@ import location from '../imgs/contacts_location.jpg';
 function Contacts() {
     return (
         <div>
-            <div style={{ backgroundColor: "red", marginTop: "100px" }}>
-                <h1>Contacts</h1>
+            <div style={{ marginTop: "70px" }}>
                 <img src={location} width="800px" height="550px" alt="offline_shop_image" />
             </div>
-            <div style={{ backgroundColor: "red", marginTop: "10px" }}>
+            <div style={{ marginTop: "10px" }}>
                 <h4>Offline Shop</h4>
                 <p>470 Sunset Drive Scarsdale, NY 10583</p>
                 <h4>Phone</h4>
