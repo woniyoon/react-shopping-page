@@ -1,6 +1,6 @@
 import React from 'react';
 import location from '../imgs/contacts_location.jpg';
-
+import './Contacts.css';
 
 function Contacts() {
     return (
@@ -8,7 +8,7 @@ function Contacts() {
             <div style={{ marginTop: "70px" }}>
                 <img src={location} width="800px" height="550px" alt="offline_shop_image" />
             </div>
-            <div style={{ marginTop: "10px" }}>
+            <div className="Contacts_container">
                 <h4>Offline Shop</h4>
                 <p>470 Sunset Drive Scarsdale, NY 10583</p>
                 <h4>Phone</h4>
