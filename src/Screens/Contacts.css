@@ -1,0 +1,6 @@
+.Contacts_container {
+    background-color:slategray;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
